@@ -39,7 +39,6 @@ public class MusicPlayer : MonoBehaviour
         }
 
         instance = this;
-        DontDestroyOnLoad(gameObject);
 
         audioSource = GetComponent<AudioSource>();
         audioSource.playOnAwake = false;
